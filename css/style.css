@@ -28,7 +28,7 @@ body {
 
 /* Header Section */
 header {
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     top: 0;
     right: 0;
@@ -40,6 +40,7 @@ header {
     padding: 22px 15%;
     border-bottom: 1px solid transparent;
     transition: all .45s ease;
+    
 }
 
 .logo {
@@ -192,20 +193,24 @@ section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap: 1.5rem;
+    gap: 7.5rem;
 }
-
+ 
 .about-img img {
     max-width: 530px;
     height: auto;
     width: 100%;
     border-radius: 5px;
+    
+    
 
 }
+ 
 
 .about-text h2 {
     font-size: var(--h2-font);
     line-height: 1;
+     /* text-align: center; */
 }
 
 .about-text h4 {
@@ -224,10 +229,7 @@ section {
     margin-bottom: 4rem;
 }
 
-.services {
-    background: var(--second-bg-color);
-
-}
+ 
 
 .main-text {
     text-align: center;
@@ -248,23 +250,23 @@ section {
 
 /*Skills Section*/
 
-.section-heading{
-    align-items: center;
+.section-heading {
+    text-align: center;
 }
 
-
 .skills-display {
-    width: 75%;
+    width: 100%;
     padding: 10px;
     margin-bottom: 30px;
+ 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
 .skill-progress {
-    width: 11rem;
-    height: 2.2rem;
+    width: 15rem;
+    height: 2.5rem;
     background-color: lightgrey;
     border-radius: 1rem;
     box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
@@ -277,8 +279,8 @@ section {
     box-shadow: 1px 1px 5px 2px #989882;
 }
 
-.skill-name span {
-    color: white;
+.skills-name span{
+    color: rgb(10, 8, 8);
     font-size: 1rem;
     margin-left: 10px;
     vertical-align: middle;
